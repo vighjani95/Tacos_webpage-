@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tacos.css">
+    <link rel="icon" href="food2.png" type="image">
+    <title>Jani finom tacos-a</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menugomb">
+            <button id="menugomb1">Menu</button>
+        </div>
+            <div class="menu" id="menuelemek1">
+                    <div class="menuelemek"><a href="">Tacos</div>
+                    <div class="menuelemek"><a href="">Sörök</a></div>
+                    <div class="menuelemek"><a href="">Borok</a></div>
+                    <div class="menuelemek"><a href="">Deszertek</a></div>
+                    <div class="menuelemek"><a href="">Fogalalás</a></div>
+            </div>
+        <div class="top">
+            <div class="leftitem">
+                <div class="leiras">
+                <h1>Kóstold meg Jani tacos-t</h1><br><br>
+                <p>Nagyon finom!</p>
+            </div>
+            </div>
+            <div class="rightitem">
+                <div class="firstpricebox">
+                    <div class="leiras2">
+                    <p>4.99 €</p>
+                    <p>Tacos</p>
+                </div>
+                </div>
+                <div class="secondpricebox">
+                    <div class="leiras2">
+                    <p>3.99 €</p>
+                    <p>Korsó sör</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <section class="features">
+            <div class="feature">
+              <span class="icon">🌮</span>
+              <h3>Tacos</h3>
+              <p>A taco egy hagyományos mexikói étel, mely kukorica- vagy búzalisztből készült tortillába hajtott húsos töltelék (bab, guacamole, csilipaprika, csirke- vagy marhahús stb.).</p>
+            </div>
+            <div class="feature">
+              <span class="icon">🍻</span>
+              <h3>Sör</h3>
+              <p>A sör malátából, valamint bizonyos pótanyagokból vízzel cefrézett, komlóval, illetve egyéb engedélyezett anyagokkal ízesített, sörélesztővel erjesztett, alkoholtartalmú ital.</p>
+            </div>
+            <div class="feature">
+              <span class="icon">🍷</span>
+              <h3>Bor</h3>
+              <p>A bor a bortermő szőlő Vitis vinifera fürtjeinek kisajtolt, édes levéből alkoholos erjedés útján nyert ital.</p>
+            </div>
+            <div class="feature">
+              <span class="icon">🔊</span>
+              <h3></h3>
+              <p>"Minden hang, amely megszólal, lehet zene. Ha fölöttem az emeleten Beethoven V. szimfóniáját kezdik el játszani, amikor dolgozom, más zenével foglalkozom..."</p>
+            </div>
+          </section>
+
+          <section class="atakorol">
+              <img src="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png" alt="Finom takosz"> 
+              <div class="atakoleiras">
+                    <h4>ízletes taco</h4>
+                    <p>Vékony tészta, könnyen fogható, sajttal megtöltve.</p>
+                    <p>Ez az,amire végytál</p>
+                    <button>Itt elérhető</button>
+                </div>
+            </section>
+
+        </div>
+
+        <script>
+            const menuGomb1 = document.getElementById('menugomb1')   
+            const menuElemek1 = document.getElementById ('menuelemek1')
+            menuGomb1.addEventListener ('click', () => {
+            menuElemek1.classList.toggle ('menu-active')
+            })
+        </script>
+</body>
+</html>
